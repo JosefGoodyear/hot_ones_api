@@ -1,0 +1,29 @@
+{% extends "rest_framework/base.html" %}
+{% block title %}
+Hot Ones API
+{% endblock %}
+
+{% block style %}
+{{ block.super }}
+<style>
+.lit {color:#000000;}
+.str {color:#000000;}
+.btn-primary {background-color:#000000;
+              border-color:#000000}
+.navbar {background-color:#000000;
+         border-color: #000000;}
+.breadcrumb {background-color:#FFCE00;}
+.breadcrumb li a {color:#E4332F;}
+.page-header {color: #E4332F;}
+.pagination li a {color: #E4332F;}
+.pagination li .active {background-color:#FFCE00;}
+</style>
+{% endblock %}
+{% block branding %}
+<a class='navbar-brand' rel="nofollow" href='https://www.youtube.com/user/FirstWeFeast'>
+    Hot Ones
+</a>
+{% endblock %}
+{% block userlinks %}
+<li class='nav-item'><a href= "{% url 'swagger' %}" target="_blank">Documentation</a></li>
+{% endblock %}

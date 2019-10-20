@@ -1,4 +1,6 @@
 # Hot Ones API
+*** Up-to-date as of 10/20/2019 ***
+
 ![Hot Ones](https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Hot_Ones_by_First_We_Feast_logo.svg/500px-Hot_Ones_by_First_We_Feast_logo.svg.png)
 ##### An API for the youtube show Hot Ones. This project is deployed [here](https://hotonesapi.herokuapp.com/). 
 ### Overview
